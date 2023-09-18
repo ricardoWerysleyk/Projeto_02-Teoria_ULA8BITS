@@ -1,0 +1,1020 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\werys\Documents\Quartus_Projects\ULA\simulation\modelsim
+Eaddc
+Z1 w1695012518
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\werys\Documents\Quartus_Projects\ULA\simulation\modelsim
+Z5 8C:/Users/werys/Documents/Quartus_Projects/ULA/addc.vhd
+Z6 FC:/Users/werys/Documents/Quartus_Projects/ULA/addc.vhd
+l0
+L4
+V=142TAnSR;gF5i]7S8SUA0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1695064591.525000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/addc.vhd|
+Z10 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/addc.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 8@@zLd<z?h8oRZ@nn9^zO2
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 4 addc 0 22 =142TAnSR;gF5i]7S8SUA0
+l11
+L9
+VcSb1b4aIUW4DjlNf[G4ie1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 XddajNH?8@fZ2FS??lzoR2
+!i10b 1
+Ebbcd
+Z13 w1695012550
+R2
+R3
+R4
+Z14 8C:/Users/werys/Documents/Quartus_Projects/ULA/bbcd.vhd
+Z15 FC:/Users/werys/Documents/Quartus_Projects/ULA/bbcd.vhd
+l0
+L3
+V@nGN_QP[G[f]c<ON;e4ld1
+R7
+31
+Z16 !s108 1695064591.621000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/bbcd.vhd|
+Z18 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/bbcd.vhd|
+R11
+R12
+!s100 __Afd7ln3AnmjA3BQ^9Q:2
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 4 bbcd 0 22 @nGN_QP[G[f]c<ON;e4ld1
+l22
+L8
+VYW>`:99U5d6Foid@08=`h1
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 Ll9Lbah1lmI^7:`7Y>LB`0
+!i10b 1
+Ebinbcd
+Z19 w1695012580
+R2
+R3
+R4
+Z20 8C:/Users/werys/Documents/Quartus_Projects/ULA/binbcd.vhd
+Z21 FC:/Users/werys/Documents/Quartus_Projects/ULA/binbcd.vhd
+l0
+L4
+VcEnzE2Ka16<c>P:GAb`S@3
+R7
+31
+Z22 !s108 1695064591.723000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/binbcd.vhd|
+Z24 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/binbcd.vhd|
+R11
+R12
+!s100 GVO4INkKl]o^WTU:88;jV2
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 6 binbcd 0 22 cEnzE2Ka16<c>P:GAb`S@3
+l19
+L9
+V8fde>HKlaoCgD8gFD:_m32
+R7
+31
+R22
+R23
+R24
+R11
+R12
+!s100 Q9Vjk9C815knN@@dGdZlV3
+!i10b 1
+Eextensoratitmetico
+Z25 w1694998841
+R2
+R3
+R4
+Z26 8C:/Users/werys/Documents/Quartus_Projects/ULA/ExtensorAtitmetico.vhd
+Z27 FC:/Users/werys/Documents/Quartus_Projects/ULA/ExtensorAtitmetico.vhd
+l0
+L4
+VKd:n6KdP_o=HaQXDk51m20
+R7
+31
+Z28 !s108 1695064590.396000
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/ExtensorAtitmetico.vhd|
+Z30 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/ExtensorAtitmetico.vhd|
+R11
+R12
+!s100 Y9g]KW9C;]>8?EnjT@Emc0
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 18 extensoratitmetico 0 22 Kd:n6KdP_o=HaQXDk51m20
+l27
+L12
+V:40nRR^YWLCWjfOBVcGjC2
+R7
+31
+R28
+R29
+R30
+R11
+R12
+!s100 RGIVzWbf0bkeSkLN2Pi0a0
+!i10b 1
+Efulladder1bit
+Z31 w1694992232
+R2
+R3
+R4
+Z32 8C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder1Bit.vhd
+Z33 FC:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder1Bit.vhd
+l0
+L4
+Vg<>3okNQV6G:Nbn6mAIMh2
+R7
+31
+Z34 !s108 1695064589.880000
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder1Bit.vhd|
+Z36 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder1Bit.vhd|
+R11
+R12
+!s100 Pf>?kkiC_SRj6GTAnFWY?0
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 13 fulladder1bit 0 22 g<>3okNQV6G:Nbn6mAIMh2
+l17
+L9
+V`4D:XZYd>?K]0R`Y3MHFk3
+R7
+31
+R34
+R35
+R36
+R11
+R12
+!s100 ZDTeb09bgQE60RgB=LLdP3
+!i10b 1
+Efulladder4bit
+Z37 w1694993378
+R2
+R3
+R4
+Z38 8C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder4Bit.vhd
+Z39 FC:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder4Bit.vhd
+l0
+L4
+VKfJ<zNT5:[]O0LDDTieMc0
+R7
+31
+Z40 !s108 1695064590.091000
+Z41 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder4Bit.vhd|
+Z42 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder4Bit.vhd|
+R11
+R12
+!s100 78ULOd?]oP];PU]KZFjDi1
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 13 fulladder4bit 0 22 KfJ<zNT5:[]O0LDDTieMc0
+l20
+L11
+VihX1Sb07@69QH>eQZ66kY1
+R7
+31
+R40
+R41
+R42
+R11
+R12
+!s100 hDCAFNiMbGNoTHzKcK8hM2
+!i10b 1
+Efulladder8bit
+Z43 w1694996856
+R2
+R3
+R4
+Z44 8C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder8Bit.vhd
+Z45 FC:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder8Bit.vhd
+l0
+L4
+V]mHod;D<=1]_@c?=Z;P^31
+R7
+31
+Z46 !s108 1695064590.191000
+Z47 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder8Bit.vhd|
+Z48 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder8Bit.vhd|
+R11
+R12
+!s100 ^YoAi@`W<agDOTg4NUjf63
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 13 fulladder8bit 0 22 ]mHod;D<=1]_@c?=Z;P^31
+l22
+L11
+VT4<IM^_dMI`T9;1GDF7GK3
+R7
+31
+R46
+R47
+R48
+R11
+R12
+!s100 XaMhTKE:5cfEUkGcYSCIM1
+!i10b 1
+Ehalfadder
+Z49 w1694995764
+R2
+R3
+R4
+Z50 8C:/Users/werys/Documents/Quartus_Projects/ULA/halfAdder.vhd
+Z51 FC:/Users/werys/Documents/Quartus_Projects/ULA/halfAdder.vhd
+l0
+L4
+VzYD8iQlDkA?lT[E>LNJ2c3
+R7
+31
+Z52 !s108 1695064589.775000
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/halfAdder.vhd|
+Z54 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/halfAdder.vhd|
+R11
+R12
+!s100 kz<0;8zBDk`W[SHhP=6^01
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 9 halfadder 0 22 zYD8iQlDkA?lT[E>LNJ2c3
+l10
+L9
+VL4MM_mjYz`:^PYd1aEe?30
+R7
+31
+R52
+R53
+R54
+R11
+R12
+!s100 6BHa`=Zj<a[UN<giL0e=e1
+!i10b 1
+Emultiplexador1bit
+Z55 w1695000699
+R2
+R3
+R4
+Z56 8C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexador1Bit.vhd
+Z57 FC:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexador1Bit.vhd
+l0
+L4
+VezA1?;nGN>f?P`5KQai6T0
+R7
+31
+Z58 !s108 1695064590.496000
+Z59 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexador1Bit.vhd|
+Z60 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexador1Bit.vhd|
+R11
+R12
+!s100 @Y<b9zMK4N02lV]2c<LN:3
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 17 multiplexador1bit 0 22 ezA1?;nGN>f?P`5KQai6T0
+l12
+L10
+V<ifWbco83bC=1PF;G<4lF2
+R7
+31
+R58
+R59
+R60
+R11
+R12
+!s100 ??fMj2`Y;_UiO?b1V3K^[1
+!i10b 1
+Emultiplexer16to1
+Z61 w1695053875
+R2
+R3
+R4
+Z62 8C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To1.vhd
+Z63 FC:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To1.vhd
+l0
+L4
+Vio1]6G8[BF@YZ<_hXCl1n1
+R7
+31
+Z64 !s108 1695064591.825000
+Z65 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To1.vhd|
+Z66 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To1.vhd|
+R11
+R12
+!s100 8YBM7MaU^dQEaUJ05@gBY2
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 16 multiplexer16to1 0 22 io1]6G8[BF@YZ<_hXCl1n1
+l25
+L12
+VLXA05H_IcWz`i]c]GTbkM3
+R7
+31
+R64
+R65
+R66
+R11
+R12
+!s100 k>Fz@oGfZX[i7b;I8Q1S00
+!i10b 1
+Emultiplexer16to8bits
+Z67 w1695062409
+R2
+R3
+R4
+Z68 8C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To8Bits.vhd
+Z69 FC:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To8Bits.vhd
+l0
+L4
+VNObYA9NE[G]LBMdX7Q7Hz3
+R7
+31
+Z70 !s108 1695064592.126000
+Z71 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To8Bits.vhd|
+Z72 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To8Bits.vhd|
+R11
+R12
+!s100 ]mCQhaFVPhd0`iol58^Jk1
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 20 multiplexer16to8bits 0 22 NObYA9NE[G]LBMdX7Q7Hz3
+l24
+L12
+VJMDioMPG]7g;]VkQoUO681
+R7
+31
+R70
+R71
+R72
+R11
+R12
+!s100 >RBPI4D7aiOdPT0PnWk4`1
+!i10b 1
+Emultiplicador
+Z73 w1695011955
+R2
+R3
+R4
+Z74 8C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplicador.vhd
+Z75 FC:/Users/werys/Documents/Quartus_Projects/ULA/Multiplicador.vhd
+l0
+L4
+VB5^I<Z`9W:T61ieP:`27P3
+R7
+31
+Z76 !s108 1695064591.320000
+Z77 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplicador.vhd|
+Z78 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplicador.vhd|
+R11
+R12
+!s100 ;LeFnn<X[g4R]1L==5:1o1
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 13 multiplicador 0 22 B5^I<Z`9W:T61ieP:`27P3
+l36
+L10
+V>8=ZT[@?F[:Wf<PYGc`JE3
+R7
+31
+R76
+R77
+R78
+R11
+R12
+!s100 g9UPRPkGFUnf3Wh@G^?I]0
+!i10b 1
+Emux4
+Z79 w1695052276
+R2
+R3
+R4
+Z80 8C:/Users/werys/Documents/Quartus_Projects/ULA/MUX4.vhd
+Z81 FC:/Users/werys/Documents/Quartus_Projects/ULA/MUX4.vhd
+l0
+L4
+VMTKZPY@P8ZZGDaVz6`BKP0
+R7
+31
+Z82 !s108 1695064591.925000
+Z83 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/MUX4.vhd|
+Z84 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/MUX4.vhd|
+R11
+R12
+!s100 Bh<@^R0iELj;NK;iccKGG0
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 4 mux4 0 22 MTKZPY@P8ZZGDaVz6`BKP0
+l13
+L12
+VFi5YWV4=6nhM]M`oR_LPT3
+R7
+31
+R82
+R83
+R84
+R11
+R12
+!s100 =7Aia`iS6RjAmRNF]OjnF2
+!i10b 1
+Emux8
+Z85 w1695053171
+R2
+R3
+R4
+Z86 8C:/Users/werys/Documents/Quartus_Projects/ULA/MUX8.vhd
+Z87 FC:/Users/werys/Documents/Quartus_Projects/ULA/MUX8.vhd
+l0
+L4
+VheWh]O0L7SK>A>SWMc8Fn1
+R7
+31
+Z88 !s108 1695064592.024000
+Z89 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/MUX8.vhd|
+Z90 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/MUX8.vhd|
+R11
+R12
+!s100 eL_8PI`z5BiK=Ezi<SAS]3
+!i10b 1
+Amain
+R2
+R3
+DEx4 work 4 mux8 0 22 heWh]O0L7SK>A>SWMc8Fn1
+l25
+L12
+VTWoz4c9TDH=_[7n@E66:]2
+R7
+31
+R88
+R89
+R90
+R11
+R12
+!s100 En]V^TZ69gg?=b8TnF;i;3
+!i10b 1
+Eportand
+Z91 w1695063456
+R2
+R3
+R4
+Z92 8C:/Users/werys/Documents/Quartus_Projects/ULA/portAND.vhd
+Z93 FC:/Users/werys/Documents/Quartus_Projects/ULA/portAND.vhd
+l0
+L4
+VC6B1c55EfI3]QPJ8UnFEg0
+R7
+31
+Z94 !s108 1695064592.330000
+Z95 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/portAND.vhd|
+Z96 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/portAND.vhd|
+R11
+R12
+!s100 `0_[gc?D0iT:Emed[H1gF3
+!i10b 1
+Alog
+R2
+R3
+DEx4 work 7 portand 0 22 C6B1c55EfI3]QPJ8UnFEg0
+l12
+L9
+VoIPLNmC4PAYO@Dbez2[a43
+R7
+31
+R94
+R95
+R96
+R11
+R12
+!s100 [bRKkcz:[=6V09GMCX7a@1
+!i10b 1
+Eportnot
+Z97 w1695063572
+R2
+R3
+R4
+Z98 8C:/Users/werys/Documents/Quartus_Projects/ULA/portNOT.vhd
+Z99 FC:/Users/werys/Documents/Quartus_Projects/ULA/portNOT.vhd
+l0
+L4
+V2m?`JD154]g02QZ7Ul?V72
+R7
+31
+Z100 !s108 1695064592.529000
+Z101 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/portNOT.vhd|
+Z102 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/portNOT.vhd|
+R11
+R12
+!s100 8V8zWB:1elLOHz95^hkl;2
+!i10b 1
+Alog
+R2
+R3
+DEx4 work 7 portnot 0 22 2m?`JD154]g02QZ7Ul?V72
+l12
+L9
+VLnm`CCaQVB9?czcWlc_KG2
+R7
+31
+R100
+R101
+R102
+R11
+R12
+!s100 _XV[kEXD;PL:jPoc0E>g?0
+!i10b 1
+Eportor
+Z103 w1695063508
+R2
+R3
+R4
+Z104 8C:/Users/werys/Documents/Quartus_Projects/ULA/portOR.vhd
+Z105 FC:/Users/werys/Documents/Quartus_Projects/ULA/portOR.vhd
+l0
+L4
+Vd488@LnJ=DYfFAkIe0;m43
+R7
+31
+Z106 !s108 1695064592.430000
+Z107 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/portOR.vhd|
+Z108 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/portOR.vhd|
+R11
+R12
+!s100 PKPHJ7Bf?WBFL11;cM7k50
+!i10b 1
+Alog
+R2
+R3
+DEx4 work 6 portor 0 22 d488@LnJ=DYfFAkIe0;m43
+l12
+L9
+V4CQ]^dE5oS=087H`>mi4l3
+R7
+31
+R106
+R107
+R108
+R11
+R12
+!s100 BUjk`LfVVChHcCdQoL1`k3
+!i10b 1
+Eportxor
+Z109 w1695063646
+R2
+R3
+R4
+Z110 8C:/Users/werys/Documents/Quartus_Projects/ULA/portXOR.vhd
+Z111 FC:/Users/werys/Documents/Quartus_Projects/ULA/portXOR.vhd
+l0
+L4
+VUI0ahOPElXCG^]=]`8ZeA3
+!s100 40IXQIdAJR`DAK3egTRf@3
+R7
+31
+!i10b 1
+Z112 !s108 1695064592.629000
+Z113 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/portXOR.vhd|
+Z114 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/portXOR.vhd|
+R11
+R12
+Alog
+R2
+R3
+DEx4 work 7 portxor 0 22 UI0ahOPElXCG^]=]`8ZeA3
+l12
+L9
+VXSkSmh1IcSTV=Pa_7P9dM3
+!s100 =fKdfcQEl`1nRH3o7RS>00
+R7
+31
+!i10b 1
+R112
+R113
+R114
+R11
+R12
+Eprojeto02_ula8bits
+Z115 w1695064558
+R2
+R3
+R4
+Z116 8C:/Users/werys/Documents/Quartus_Projects/ULA/Projeto02_ULA8Bits.vhd
+Z117 FC:/Users/werys/Documents/Quartus_Projects/ULA/Projeto02_ULA8Bits.vhd
+l0
+L4
+VGgVN@oJbmHi==1Y<WE6Ie1
+R7
+31
+Z118 !s108 1695064589.989000
+Z119 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/Projeto02_ULA8Bits.vhd|
+Z120 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/Projeto02_ULA8Bits.vhd|
+R11
+R12
+!s100 ne4C]OV5?WA:NIOlY2j=k1
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 18 projeto02_ula8bits 0 22 GgVN@oJbmHi==1Y<WE6Ie1
+l31
+L12
+VJUWl]ZfS2M1UZ@WJoP4;;2
+R7
+31
+R118
+R119
+R120
+R11
+R12
+!s100 hNBETf>_k>jSATeZ@DK;Z2
+!i10b 1
+Eseg7
+Z121 w1695012496
+R2
+R3
+R4
+Z122 8C:/Users/werys/Documents/Quartus_Projects/ULA/seg7.vhd
+Z123 FC:/Users/werys/Documents/Quartus_Projects/ULA/seg7.vhd
+l0
+L4
+VKX144n9:2T^f4Rm]3W5TD0
+R7
+31
+Z124 !s108 1695064591.423000
+Z125 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/seg7.vhd|
+Z126 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/seg7.vhd|
+R11
+R12
+!s100 IJa4f98ih[QP>kfK6k^J22
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 4 seg7 0 22 KX144n9:2T^f4Rm]3W5TD0
+l13
+L9
+V5LeN2JAz78n9aSCi:?lmO1
+R7
+31
+R124
+R125
+R126
+R11
+R12
+!s100 dG<I3zaK0fd?Th1<JNZM=2
+!i10b 1
+Eseletoraritmetico
+Z127 w1694997909
+R2
+R3
+R4
+Z128 8C:/Users/werys/Documents/Quartus_Projects/ULA/SeletorAritmetico.vhd
+Z129 FC:/Users/werys/Documents/Quartus_Projects/ULA/SeletorAritmetico.vhd
+l0
+L4
+VKED1zX_LZOL09?:6G0CK13
+R7
+31
+Z130 !s108 1695064590.292000
+Z131 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/SeletorAritmetico.vhd|
+Z132 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/SeletorAritmetico.vhd|
+R11
+R12
+!s100 j[eazol0a7X]eYT=VX8M>1
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 17 seletoraritmetico 0 22 KED1zX_LZOL09?:6G0CK13
+l11
+L9
+Vdf1z^Q[T[P7^8b_5]hn`W0
+R7
+31
+R130
+R131
+R132
+R11
+R12
+!s100 WIXz[XWho4lG0beMPeVKE0
+!i10b 1
+Eshl8bits1
+Z133 w1695002610
+R2
+R3
+R4
+Z134 8C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits1.vhd
+Z135 FC:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits1.vhd
+l0
+L4
+VnME3U@;YZU3ni`]JK9:gD0
+R7
+31
+Z136 !s108 1695064590.595000
+Z137 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits1.vhd|
+Z138 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits1.vhd|
+R11
+R12
+!s100 g]>?j15WlhZ3`n=iVghjY3
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 9 shl8bits1 0 22 nME3U@;YZU3ni`]JK9:gD0
+l20
+L10
+VIn4DfHUMhHia^eOOmzGz41
+R7
+31
+R136
+R137
+R138
+R11
+R12
+!s100 3_ShzWEf3G]eEk[;m8DMN3
+!i10b 1
+Eshl8bits2
+Z139 w1695003009
+R2
+R3
+R4
+Z140 8C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits2.vhd
+Z141 FC:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits2.vhd
+l0
+L4
+V5:12d=]<=W8i=V6MMBka<0
+R7
+31
+Z142 !s108 1695064590.694000
+Z143 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits2.vhd|
+Z144 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits2.vhd|
+R11
+R12
+!s100 SMe^mXc?4Ua5bQRIBI_290
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 9 shl8bits2 0 22 5:12d=]<=W8i=V6MMBka<0
+l20
+L10
+VcTonD?iQj[0JT4PK9n_=h1
+R7
+31
+R142
+R143
+R144
+R11
+R12
+!s100 =n9=_RdS]U0Y9:aSI3a_=2
+!i10b 1
+Eshl8bits4
+Z145 w1695003176
+R2
+R3
+R4
+Z146 8C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits4.vhd
+Z147 FC:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits4.vhd
+l0
+L4
+VD>356FE1DI8M6ZXTG5K^i0
+R7
+31
+Z148 !s108 1695064590.802000
+Z149 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits4.vhd|
+Z150 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits4.vhd|
+R11
+R12
+!s100 N3<aHYXDKGVE5LHh8EZSX1
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 9 shl8bits4 0 22 D>356FE1DI8M6ZXTG5K^i0
+l20
+L10
+V9fR9Q3bFD5`ze]M]UFo5H0
+R7
+31
+R148
+R149
+R150
+R11
+R12
+!s100 k@KKjJmY5f[m1lXn`HPlB3
+!i10b 1
+Eshl8bitsbarrel
+Z151 w1695003681
+R2
+R3
+R4
+Z152 8C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bitsBarrel.vhd
+Z153 FC:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bitsBarrel.vhd
+l0
+L4
+Vl6m[4RRBk_1:z]E8Rbmf53
+R7
+31
+Z154 !s108 1695064590.904000
+Z155 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bitsBarrel.vhd|
+Z156 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bitsBarrel.vhd|
+R11
+R12
+!s100 VWl=Nbad^8Oah@=YZCc<51
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 14 shl8bitsbarrel 0 22 l6m[4RRBk_1:z]E8Rbmf53
+l33
+L10
+VmGSkIUmB9ZjFZ]Oo@ELmn1
+R7
+31
+R154
+R155
+R156
+R11
+R12
+!s100 ]N;@::K3kXhW>=6oC6LLT0
+!i10b 1
+Eshr8bitsbarrel
+Z157 w1695004965
+R2
+R3
+R4
+Z158 8C:/Users/werys/Documents/Quartus_Projects/ULA/SHR8bitsBarrel.vhd
+Z159 FC:/Users/werys/Documents/Quartus_Projects/ULA/SHR8bitsBarrel.vhd
+l0
+L4
+VD?ZlWAkbnS31C9FDBPPl>1
+R7
+31
+Z160 !s108 1695064591.218000
+Z161 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/SHR8bitsBarrel.vhd|
+Z162 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/SHR8bitsBarrel.vhd|
+R11
+R12
+!s100 DcYb9mUIo3_HF7Geb0E2M3
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 14 shr8bitsbarrel 0 22 D?ZlWAkbnS31C9FDBPPl>1
+l26
+L10
+V1GJkJQTUjWAdZRSYI>FA33
+R7
+31
+R160
+R161
+R162
+R11
+R12
+!s100 6e0@zEWVa@dlJ6B]E:G_b1
+!i10b 1
+Eswa
+Z163 w1695004596
+R2
+R3
+R4
+Z164 8C:/Users/werys/Documents/Quartus_Projects/ULA/SWA.vhd
+Z165 FC:/Users/werys/Documents/Quartus_Projects/ULA/SWA.vhd
+l0
+L4
+VLkhz2OoQl]hMCa]Vo=A_O0
+R7
+31
+Z166 !s108 1695064591.013000
+Z167 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/SWA.vhd|
+Z168 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/SWA.vhd|
+R11
+R12
+!s100 Dk6eFk56;W;k]=hJdXETd2
+!i10b 1
+Alog
+R2
+R3
+DEx4 work 3 swa 0 22 Lkhz2OoQl]hMCa]Vo=A_O0
+l11
+L9
+VDWZfB?YXNGcK]B0aOEROO3
+R7
+31
+R166
+R167
+R168
+R11
+R12
+!s100 Q0B7gNY2S>MHJ`SO^mm=Q1
+!i10b 1
+Eswp
+Z169 w1695004621
+R2
+R3
+R4
+Z170 8C:/Users/werys/Documents/Quartus_Projects/ULA/SWP.vhd
+Z171 FC:/Users/werys/Documents/Quartus_Projects/ULA/SWP.vhd
+l0
+L4
+Vl`jVz1<e1=Q`Rk:>k3fAl3
+R7
+31
+Z172 !s108 1695064591.107000
+Z173 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/SWP.vhd|
+Z174 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/SWP.vhd|
+R11
+R12
+!s100 UmQUJ`G9nj@W]Zhb374AX0
+!i10b 1
+Alog
+R2
+R3
+DEx4 work 3 swp 0 22 l`jVz1<e1=Q`Rk:>k3fAl3
+l11
+L9
+VO43TO4e6UJ_h`?mPWDm_<0
+R7
+31
+R172
+R173
+R174
+R11
+R12
+!s100 m>XlYdESScYJ_[]2jHWl31
+!i10b 1
+Eula8bits
+Z175 w1695064060
+R2
+R3
+R4
+Z176 8C:/Users/werys/Documents/Quartus_Projects/ULA/ULA8Bits.vhd
+Z177 FC:/Users/werys/Documents/Quartus_Projects/ULA/ULA8Bits.vhd
+l0
+L4
+VzbYbeI[3mOa:=CMdImM1o1
+R7
+31
+Z178 !s108 1695064592.232000
+Z179 !s90 -reportprogress|300|-93|-work|work|C:/Users/werys/Documents/Quartus_Projects/ULA/ULA8Bits.vhd|
+Z180 !s107 C:/Users/werys/Documents/Quartus_Projects/ULA/ULA8Bits.vhd|
+R11
+R12
+!s100 M7kU=KSCYB`cDj67Zzff?1
+!i10b 1
+Ackt
+R2
+R3
+DEx4 work 8 ula8bits 0 22 zbYbeI[3mOa:=CMdImM1o1
+l82
+L13
+V4dlAH@;zbj0E><?<?<_2h3
+R7
+31
+R178
+R179
+R180
+R11
+R12
+!s100 `zKVK67hgGF0C[khFbF?k2
+!i10b 1

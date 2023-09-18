@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/halfAdder.vhd}
+vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder1Bit.vhd}
+vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/Projeto02_ULA8Bits.vhd}
+vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder4Bit.vhd}
+

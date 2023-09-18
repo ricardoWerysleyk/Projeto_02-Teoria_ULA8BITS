@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity SHL8bits1 is
+   Port ( A : in STD_LOGIC(7 downto 0);
+          B : in STD_LOGIC;
+			 S : out STD_LOGIC(7 downto 0);
+end SHL8bits1;
+
+architecture ckt of SHL8bits1 is
+
+	signal S: STD_LOGIC_VECTOR(7 downto 0);
+
+	component Multiplexador1Bit is
+		Port ( I : in STD_LOGIC(1 downto 0);
+				 S : in STD_LOGIC;
+				 O : out STD_LOGIC);
+	end component;
+
+begin
+   S(0) <= 
+end ckt;

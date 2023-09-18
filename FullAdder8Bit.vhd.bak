@@ -1,0 +1,34 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity FullAdder8Bit is
+   Port ( A, B : in STD_LOGIC_VECTOR(7 downto 0);
+          Cin : in STD_LOGIC;
+          Sum : out STD_LOGIC_VECTOR(7 downto 0);
+          Cout : out STD_LOGIC);
+end FullAdder8Bit;
+
+architecture ckt of FullAdder8Bit is
+   signal SumLow, SumHigh : STD_LOGIC_VECTOR(3 downto 0);
+   signal CoutLow, CoutHigh : STD_LOGIC;
+
+   -- Declare o componente FullAdder4Bit
+   component FullAdder4Bit is
+      Port ( A, B : in STD_LOGIC_VECTOR(3 downto 0);
+             Cin : in STD_LOGIC;
+             Sum : out STD_LOGIC_VECTOR(3 downto 0);
+             Cout : out STD_LOGIC);
+   end component;
+
+begin
+   -- Instancie dois FullAdders de 4 bits para somar os bits baixos e altos
+   U1: FullAdder4Bit port map (A(3 downto 0), B(3 downto 0), Cin, SumLow, CoutLow);
+   U2: FullAdder4Bit port map (A(7 downto 4), B(7 downto 4), CoutLow, SumHigh, CoutHigh);
+
+   -- Concatene os resultados para obter a soma de 8 bits
+   Sum <= SumHigh & SumLow;
+
+   -- O carry de saída final é CoutHigh
+   Cout <= CoutHigh;
+
+end ckt;

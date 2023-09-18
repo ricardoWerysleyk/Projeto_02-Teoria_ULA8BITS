@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity ULA8Bits is
+		Port (
+		  A, B : in STD_LOGIC_VECTOR(7 downto 0);
+		  KEY : in STD_LOGIC_VECTOR(3 downto 0);
+		  s : out STD_LOGIC_VECTOR(7 downto 0)
+		  Co : out STD_LOGIC;
+		);
+end ULA8Bits;
+
+architecture ckt of ULA8Bits is
+	
+	component Multiplexer16To8Bits is
+		 Port (
+			  I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15 : in STD_LOGIC_VECTOR(15 downto 0);
+			  S : in STD_LOGIC_VECTOR(3 downto 0);
+			  O : out STD_LOGIC_VECTOR(15 downto 0)
+		 );
+	end component;
+
+begin
+    U1: Multiplexer16To8Bits	port map (I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, S, O);
+end ckt;

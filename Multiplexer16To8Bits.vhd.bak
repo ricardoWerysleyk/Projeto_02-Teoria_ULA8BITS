@@ -1,0 +1,202 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Multiplexer16To8Bits is
+    Port (
+        I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15 : in STD_LOGIC_VECTOR(15 downto 0);
+        S : in STD_LOGIC_VECTOR(3 downto 0);
+        O : out STD_LOGIC
+    );
+end Multiplexer16To8Bits;
+
+architecture Main of Multiplexer16To8Bits is
+
+	signal sMux, iMux0, iMux1, iMux2, iMux3, iMux4, iMux5, iMux6, iMux7, iMux8, iMux9, iMux10, iMux11, iMux12, iMux13, iMux14, iMux15 : STD_LOGIC_VECTOR(15 downto 0);
+
+	component Multiplexer16To1 is
+		Port (
+        I : in STD_LOGIC_VECTOR(15 downto 0);
+        S : in STD_LOGIC_VECTOR(3 downto 0);
+        O : out STD_LOGIC
+		);
+	end component;
+
+begin
+	iMux0(0) <= I0(0);
+	iMux1(0) <= I0(1);
+	iMux2(0) <= I0(2);
+	iMux3(0) <= I0(3);
+	iMux4(0) <= I0(4);
+	iMux5(0) <= I0(5);
+	iMux6(0) <= I0(6);
+	iMux7(0) <= I0(7);
+	iMux8(0) <= I0(8);
+	iMux9(0) <= I0(9);
+	iMux10(0) <= I0(10);
+	iMux11(0) <= I0(11);
+	iMux12(0) <= I0(12);
+	iMux13(0) <= I0(13);
+	iMux14(0) <= I0(14);
+	iMux15(0) <= I0(15);
+	
+	iMux0(1) <= I1(0);
+	iMux1(1) <= I1(1);
+	iMux2(1) <= I1(2);
+	iMux3(1) <= I1(3);
+	iMux4(1) <= I1(4);
+	iMux5(1) <= I1(5);
+	iMux6(1) <= I1(6);
+	iMux7(1) <= I1(7);
+	iMux8(1) <= I1(8);
+	iMux9(1) <= I1(9);
+	iMux10(1) <= I1(10);
+	iMux11(1) <= I1(11);
+	iMux12(1) <= I1(12);
+	iMux13(1) <= I1(13);
+	iMux14(1) <= I1(14);
+	iMux15(1) <= I1(15);
+	
+	iMux0(2) <= I2(0);
+	iMux1(2) <= I2(1);
+	iMux2(2) <= I2(2);
+	iMux3(2) <= I2(3);
+	iMux4(2) <= I2(4);
+	iMux5(2) <= I2(5);
+	iMux6(2) <= I2(6);
+	iMux7(2) <= I2(7);
+	iMux8(2) <= I2(8);
+	iMux9(2) <= I2(9);
+	iMux10(2) <= I2(10);
+	iMux11(2) <= I2(11);
+	iMux12(2) <= I2(12);
+	iMux13(2) <= I2(13);
+	iMux14(2) <= I2(14);
+	iMux15(2) <= I2(15);
+	
+	iMux0(3) <= I3(0);
+	iMux1(3) <= I3(1);
+	iMux2(3) <= I3(2);
+	iMux3(3) <= I3(3);
+	iMux4(3) <= I3(4);
+	iMux5(3) <= I3(5);
+	iMux6(3) <= I3(6);
+	iMux7(3) <= I3(7);
+	iMux8(3) <= I3(8);
+	iMux9(3) <= I3(9);
+	iMux10(3) <= I3(10);
+	iMux11(3) <= I3(11);
+	iMux12(3) <= I3(12);
+	iMux13(3) <= I3(13);
+	iMux14(3) <= I3(14);
+	iMux15(3) <= I3(15);
+	
+	iMux0(4) <= I4(0);
+	iMux1(4) <= I4(1);
+	iMux2(4) <= I4(2);
+	iMux3(4) <= I4(3);
+	iMux4(4) <= I4(4);
+	iMux5(4) <= I4(5);
+	iMux6(4) <= I4(6);
+	iMux7(4) <= I4(7);
+	iMux8(4) <= I4(8);
+	iMux9(4) <= I4(9);
+	iMux10(4) <= I4(10);
+	iMux11(4) <= I4(11);
+	iMux12(4) <= I4(12);
+	iMux13(4) <= I4(13);
+	iMux14(4) <= I4(14);
+	iMux15(4) <= I4(15);
+	
+	iMux0(5) <= I5(0);
+	iMux1(5) <= I5(1);
+	iMux2(5) <= I5(2);
+	iMux3(5) <= I5(3);
+	iMux4(5) <= I5(4);
+	iMux5(5) <= I5(5);
+	iMux6(5) <= I5(6);
+	iMux7(5) <= I5(7);
+	iMux8(5) <= I5(8);
+	iMux9(5) <= I5(9);
+	iMux10(5) <= I5(10);
+	iMux11(5) <= I5(11);
+	iMux12(5) <= I5(12);
+	iMux13(5) <= I5(13);
+	iMux14(5) <= I5(14);
+	iMux15(5) <= I5(15);
+	
+	iMux0(6) <= I6(0);
+	iMux1(6) <= I6(1);
+	iMux2(6) <= I6(2);
+	iMux3(6) <= I6(3);
+	iMux4(6) <= I6(4);
+	iMux5(6) <= I6(5);
+	iMux6(6) <= I6(6);
+	iMux7(6) <= I6(7);
+	iMux8(6) <= I6(8);
+	iMux9(6) <= I6(9);
+	iMux10(6) <= I6(10);
+	iMux11(6) <= I6(11);
+	iMux12(6) <= I6(12);
+	iMux13(6) <= I6(13);
+	iMux14(6) <= I6(14);
+	iMux15(6) <= I6(15);
+	
+	iMux0(7) <= I7(0);
+	iMux1(7) <= I7(1);
+	iMux2(7) <= I7(2);
+	iMux3(7) <= I7(3);
+	iMux4(7) <= I7(4);
+	iMux5(7) <= I7(5);
+	iMux6(7) <= I7(6);
+	iMux7(7) <= I7(7);
+	iMux8(7) <= I7(8);
+	iMux9(7) <= I7(9);
+	iMux10(7) <= I7(10);
+	iMux11(7) <= I7(11);
+	iMux12(7) <= I7(12);
+	iMux13(7) <= I7(13);
+	iMux14(7) <= I7(14);
+	iMux15(7) <= I7(15);
+	
+	iMux0(8) <= I8(0);
+	iMux1(8) <= I8(1);
+	iMux2(8) <= I8(2);
+	iMux3(8) <= I8(3);
+	iMux4(8) <= I8(4);
+	iMux5(8) <= I8(5);
+	iMux6(8) <= I8(6);
+	iMux7(8) <= I8(7);
+	iMux8(8) <= I8(8);
+	iMux9(8) <= I8(9);
+	iMux10(8) <= I8(10);
+	iMux11(8) <= I8(11);
+	iMux12(8) <= I8(12);
+	iMux13(8) <= I8(13);
+	iMux14(8) <= I8(14);
+	iMux15(8) <= I8(15);
+	
+	iMux0(9) <= I9(0);
+	iMux1(9) <= I9(1);
+	iMux2(9) <= I9(2);
+	iMux3(9) <= I9(3);
+	iMux4(9) <= I9(4);
+	iMux5(9) <= I9(5);
+	iMux6(9) <= I9(6);
+	iMux7(9) <= I9(7);
+	iMux8(9) <= I9(8);
+	iMux9(9) <= I9(9);
+	iMux10(9) <= I9(10);
+	iMux11(9) <= I9(11);
+	iMux12(9) <= I9(12);
+	iMux13(9) <= I9(13);
+	iMux14(9) <= I9(14);
+	iMux15(9) <= I9(15);
+
+
+
+	MUX0 : Multiplexer16To1 port map (I(7 downto 0), S, sMux(0));
+	selectorMux(0) <= S(3);
+	selectorMux(1) <= S(3);
+	selectorMux(2) <= S(3);
+	MUXoutput : MUX8 port map (sMux, selectorMux, O);
+end Main;

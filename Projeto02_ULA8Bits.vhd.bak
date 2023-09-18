@@ -1,0 +1,42 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity Main is
+end Main;
+
+architecture ckt of Main is
+    -- Declare os sinais de entrada e saída para a simulação
+    signal A, B, Cin : STD_LOGIC;
+    signal Sum, Cout : STD_LOGIC;
+
+    -- Componente FullAdder1Bit
+    component FullAdder1Bit
+        Port ( A, B, Cin : in STD_LOGIC;
+               Sum, Cout : out STD_LOGIC);
+    end component;
+
+begin
+    -- Instancie o FullAdder1Bit
+    U1: FullAdder1Bit
+        port map (A, B, Cin, Sum, Cout);
+
+    -- Estimule os sinais de entrada
+    A <= '1';
+    B <= '0';
+    Cin <= '0';
+
+    -- Aguarde alguns ciclos de simulação
+    wait for 10 ns;
+
+    -- Imprima os resultados
+    report "A = " & std_logic'image(A) severity NOTE;
+    report "B = " & std_logic'image(B) severity NOTE;
+    report "Cin = " & std_logic'image(Cin) severity NOTE;
+    report "Sum = " & std_logic'image(Sum) severity NOTE;
+    report "Cout = " & std_logic'image(Cout) severity NOTE;
+
+    -- Finalize a simulação
+    wait;
+end ckt;

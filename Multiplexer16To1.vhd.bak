@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Multiplexer16To1 is
+    Generic (
+        N : integer := 16;  -- Número de entradas (altere conforme necessário)
+        M : integer := 8    -- Número de bits por entrada (altere conforme necessário)
+    );
+    Port (
+        Inputs : in STD_LOGIC_VECTOR(N-1 downto 0, M-1 downto 0);
+        Select : in STD_LOGIC_VECTOR(integer(ceil(log2(real(N))))-1 downto 0);
+        Output : out STD_LOGIC_VECTOR(M-1 downto 0)
+    );
+end Multiplexer16To1;
+
+architecture Main of Multiplexer16To1 is
+begin
+    process (Select)
+    begin
+        case to_integer(Select) is
+            when others =>
+                Output <= (others => '0');  -- Valor padrão para Select não reconhecido
+            when others =>
+                Output <= Inputs(to_integer(Select));
+        end case;
+    end process;
+end Main;

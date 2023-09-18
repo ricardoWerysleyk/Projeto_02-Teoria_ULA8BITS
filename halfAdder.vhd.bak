@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity HalfAdder is
+    Port ( A, B : in STD_LOGIC;
+           Sum, CarryOut : out STD_LOGIC);
+end HalfAdder;
+
+architecture main of HalfAdder is
+begin
+    Sum <= A XOR B;       -- Soma é o resultado da operação XOR
+    CarryOut <= A AND B;  -- CarryOut é o resultado da operação AND
+end main;

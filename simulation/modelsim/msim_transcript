@@ -1,0 +1,259 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Projeto02_ULA8Bits_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/halfAdder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity halfAdder
+# -- Compiling architecture main of halfAdder
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder1Bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder1Bit
+# -- Compiling architecture Main of FullAdder1Bit
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/Projeto02_ULA8Bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Projeto02_ULA8Bits
+# -- Compiling architecture ckt of Projeto02_ULA8Bits
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder4Bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder4Bit
+# -- Compiling architecture ckt of FullAdder4Bit
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/FullAdder8Bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder8Bit
+# -- Compiling architecture ckt of FullAdder8Bit
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/SeletorAritmetico.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SeletorAritmetico
+# -- Compiling architecture ckt of SeletorAritmetico
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/ExtensorAtitmetico.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ExtensorAtitmetico
+# -- Compiling architecture ckt of ExtensorAtitmetico
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexador1Bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Multiplexador1Bit
+# -- Compiling architecture ckt of Multiplexador1Bit
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SHL8bits1
+# -- Compiling architecture ckt of SHL8bits1
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SHL8bits2
+# -- Compiling architecture ckt of SHL8bits2
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bits4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SHL8bits4
+# -- Compiling architecture ckt of SHL8bits4
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/SHL8bitsBarrel.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SHL8bitsBarrel
+# -- Compiling architecture ckt of SHL8bitsBarrel
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/SWA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SWA
+# -- Compiling architecture log of SWA
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/SWP.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SWP
+# -- Compiling architecture log of SWP
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/SHR8bitsBarrel.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SHR8bitsBarrel
+# -- Compiling architecture ckt of SHR8bitsBarrel
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplicador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Multiplicador
+# -- Compiling architecture ckt of Multiplicador
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/seg7.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity seg7
+# -- Compiling architecture ckt of seg7
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/addc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addc
+# -- Compiling architecture ckt of addc
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/bbcd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bbcd
+# -- Compiling architecture ckt of bbcd
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/binbcd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity binbcd
+# -- Compiling architecture ckt of binbcd
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Multiplexer16To1
+# -- Compiling architecture Main of Multiplexer16To1
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/MUX4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX4
+# -- Compiling architecture Main of MUX4
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/MUX8.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX8
+# -- Compiling architecture Main of MUX8
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/Multiplexer16To8Bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Multiplexer16To8Bits
+# -- Compiling architecture Main of Multiplexer16To8Bits
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/ULA8Bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ULA8Bits
+# -- Compiling architecture ckt of ULA8Bits
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/portAND.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity portAND
+# -- Compiling architecture log of portAND
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/portOR.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity portOR
+# -- Compiling architecture log of portOR
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/portNOT.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity portNOT
+# -- Compiling architecture log of portNOT
+# vcom -93 -work work {C:/Users/werys/Documents/Quartus_Projects/ULA/portXOR.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity portXOR
+# -- Compiling architecture log of portXOR
+# 
+vsim -voptargs=+acc work.projeto02_ula8bits
+# vsim -voptargs=+acc work.projeto02_ula8bits 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.projeto02_ula8bits(ckt)
+# Loading work.ula8bits(ckt)
+# Loading work.extensoratitmetico(ckt)
+# Loading work.fulladder8bit(ckt)
+# Loading work.fulladder4bit(ckt)
+# Loading work.fulladder1bit(main)
+# Loading work.halfadder(main)
+# Loading work.seletoraritmetico(ckt)
+# Loading work.multiplicador(ckt)
+# Loading work.shl8bitsbarrel(ckt)
+# Loading work.shl8bits1(ckt)
+# Loading work.multiplexador1bit(ckt)
+# Loading work.shl8bits2(ckt)
+# Loading work.shl8bits4(ckt)
+# Loading work.shr8bitsbarrel(ckt)
+# Loading work.swa(log)
+# Loading work.swp(log)
+# Loading work.portand(log)
+# Loading work.portor(log)
+# Loading work.portxor(log)
+# Loading work.portnot(log)
+# Loading work.multiplexer16to8bits(main)
+# Loading work.multiplexer16to1(main)
+# Loading work.mux8(main)
+# Loading work.mux4(main)
+# Loading work.bbcd(ckt)
+# Loading work.seg7(ckt)
+# Loading work.binbcd(ckt)
+# Loading work.addc(ckt)
+# ** Warning: Design size of 1103 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Warning: (vsim-8684) No drivers exist on out port /projeto02_ula8bits/U1/Co(4), and its initial value is not used.
+# 
+# Therefore, simulation behavior may occur that is not in compliance with
+# 
+# the VHDL standard as the initial values come from the base signal /projeto02_ula8bits/Co(4).
+# 
